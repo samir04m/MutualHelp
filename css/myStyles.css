@@ -1,0 +1,82 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+@media screen and (min-width: 800px){
+	nav .nav-wrapper .container, .c2 {
+		width: 85%;
+	}
+}
+.full-height {
+	min-width: 90vh;
+}
+
+.card-panel {
+	border-radius: 10px;
+	display: none;
+}
+.card {
+	border-radius: 10px;
+}
+.pdd40 {
+	padding: 20px 40px;
+}
+.padding-left {
+	padding-left: 20px;
+}
+.no-mpadd {
+	margin-bottom: 0px;
+}
+.card-colaborador {
+	padding-bottom: 8px;
+}
+.btn-rounded {
+	border-radius: 40px;
+}
+.btn {
+		border-radius: 40px;
+}
+.anuncio {
+	min-height: 350px;
+	background-color: rgba(187, 187, 187, 0.44);
+	padding: 150px 0;
+	font-size: 20px;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+.dashed-divider {
+	border-top: 2px dashed lightgrey;
+	margin: 10px;
+}
+
+
+/*================ modificacion de materialize ===========*/
+.input-field label {
+	font-size: 16px;
+}
+.input-field input{
+	/*font-size: 20px;*/
+	padding-left: 5px;
+}
+.input-field input:focus {
+ 	border-bottom: 1px solid #0097a7  !important;
+ 	box-shadow: 0 1px 0 0 #0097a7  !important;
+}
+.input-field label.active {
+ 	color: #0097a7  !important;
+}
+
+[type="checkbox"]:checked:disabled + label:before {
+	border-right: 2px solid purple;
+    border-bottom: 2px solid purple;
+}
+
+.waves-effect.waves-blue .waves-ripple {
+  	background-color: #42a5f5;
+}

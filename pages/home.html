@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inicio - Mutual Help</title>
+
+    <link rel="stylesheet" href="../css/materialize.css">
+    <link rel="stylesheet" href="../css/myStyles.css">
+    <script type="text/javascript" src="../js/fontawesome-all.js"></script>
+    <link rel="stylesheet" href="../css/material-icons.css">
+
+</head>
+<body class="blue">
+    <header>
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!"><i class="fas fa-cogs"></i> Configuración</a></li>
+            <li><a href="#!"><i class="fas fa-users"></i> Mis colaboladores</a></li>
+            <li class="divider"></li>
+            <li><a href="../index.html"><i class="fas fa-sign-out-alt"></i> Cerrar Sesión</a></li>
+        </ul>
+        <nav>
+            <div class="nav-wrapper blue">
+                <div class="container">
+                    <a href="#" class="brand-logo hide-on-small-only" style="margin-left: 20px;">
+                        <i class="far fa-handshake fa-lg"></i> Mutual Help
+                        <!-- <i class="fas fa-hands-helping fa-lg"></i> Mutual Help -->
+                    </a>
+                    <a href="#" data-activates="mobile" class="button-collapse">
+                        <i class="fas fa-bars fa-lg"></i>
+                    </a>
+
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="colaboladores.html">Colaboradores</a></li>
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">
+                            <i class="fas fa-user"></i> Cuenta <i class="fas fa-angle-down"></i>
+                        </a></li>
+                    </ul>
+                    <ul class="side-nav" id="mobile">
+                        <li><a href="colaboladores.html">Colaboradores</a></li>
+                    </ul>
+                </div>
+            </div>
+		</nav>
+    </header>
+    <main>
+        <div class="container c2">
+            <div class="hide-on-small-only"><br></div>
+            <div class="row">
+                <div class="col s12 m9">
+                    <div class="card-panel z-depth-3 pdd40">
+                        <div class="row">
+                            <h5>Como podemos ayudarte?</h5>
+                            <big>Completa la siguiente información que nos permitirá ofrecerte un mejor servicio .</big>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input type="text" name="programa" id="programa">
+                                <label for="programa">A que programa perteneces?</label>
+                            </div>
+                            <div class="input-field col s12 m6">
+                                <input type="text" name="asignatura" id="asignatura">
+                                <label for="asignatura">En que asignatura necesitas ayuda?</label>
+                            </div>
+                            <div class="input-field col s12 m6">
+                                <input type="text" name="asignatura2" id="asignatura2">
+                                <label for="asignatura2">En que asignatura eres bueno?</label>
+                            </div>
+                            <div class="input-field col s12">
+    				        	<textarea class="materialize-textarea" name="horarios" id="horarios" rows="2"></textarea>
+    				        	<label for="horarios">Puedes especificar en que temas necesitas ayuda</label>
+    				        </div>
+                            <div class="padding-left">
+                                <label><big>Indica cuales son tus horarios de disponibilidad</big></label>
+                            </div>
+                            <div class="input-field col s12">
+                                <div class="chips chips-initial"></div>
+                            </div>
+                        </div>
+                        <div class="center">
+                            <a href="colaboladores.html" class="btn waves-effect blue btn-large">Buscar colaboladores</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card-panel pdd40">
+                        <div class="row">
+                            <big><b>Necesitas ayuda en mas de una asignatura?</b></big> <br>
+                            <big>
+                                No esperes más para pasar tu cuenta a <b>PRO</b>
+                                y asi acceder a todos sus beneficios. <br>
+                                Adquierela ahora mismo
+                            </big>
+
+                        </div>
+                        <button class="btn waves-effect blue">comprar PRO</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer blue darken-1">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <h5><i class="far fa-handshake"></i> Mutual Help</h5>
+                    <big>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi earum magni unde natus, non dignissimos modi consequatur neque quae itaque porro aspernatur velit dolor quos laboriosam. Expedita, officiis quia eius.</big>
+                </div>
+                <div class="col s12 offset-m1 m5">
+                    <h5><i class="fas fa-code"></i> Desarrolladores</h5>
+                    <div class="padding-left">
+                        <big>
+                            <ul>
+                                <li><i class="fas fa-user-tie"></i> Adalberto Avila</li>
+                                <li><i class="fas fa-user-tie"></i> Luis Deluque</li>
+                                <li><i class="fas fa-user-tie"></i> Albeiro Espitia</li>
+                                <li><i class="fas fa-user-tie"></i> Samir Mejia</li>
+                                <li><i class="fas fa-user-tie"></i> Aramis Ortega</li>
+                            </ul>
+
+                        </big>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+			<div class="container white-text">
+				Universidad del Magdalena © 2018 Copyright
+            	<a class="grey-text text-lighten-4 right" href="http://materializecss.com/footer.html">Materialize</a>
+			</div>
+		</div>
+    </footer>
+    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../js/materialize.js"></script>
+    <script type="text/javascript" src="../js/myScript.js"></script>
+
+</body>
+</html>
