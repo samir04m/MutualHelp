@@ -55,6 +55,10 @@ main {
 	margin: 10px;
 }
 
+label {
+	color: black;
+}
+
 
 /*================ modificacion de materialize ===========*/
 .input-field label {
